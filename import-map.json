@@ -1,0 +1,18 @@
+{
+  "imports": {
+    "single-spa": "https://cdn.jsdelivr.net/npm/single-spa@4.4.1/lib/system/single-spa.min.js",
+    "react": "https://cdn.jsdelivr.net/npm/react@16.9.0/umd/react.production.min.js",
+    "react-dom": "https://cdn.jsdelivr.net/npm/react-dom@16.9.0/umd/react-dom.production.min.js",
+    "@openmrs/esm-root-config": "https://localhost:8082/openmrs-esm-root-config.defaults.js",
+    "@openmrs/esm-login": "https://spa-modules.nyc3.digitaloceanspaces.com/@openmrs/esm-login/91113e42e15a174d9fb78f75c8239e5e1f191966/openmrs-esm-login.js",
+    "@openmrs/esm-devtools": "https://spa-modules.nyc3.digitaloceanspaces.com/@openmrs/esm-devtools/a828054066674362d3590912cd6a2563f12e5ef6/openmrs-esm-devtools.js",
+    "@openmrs/esm-api": "https://spa-modules.nyc3.digitaloceanspaces.com/@openmrs/esm-api/beccacbfb2509383ec7ff1c89e0d597ede647be3/openmrs-esm-api.js",
+    "@openmrs/esm-styleguide": "https://spa-modules.nyc3.digitaloceanspaces.com/@openmrs/esm-styleguide/fb6139d0824db5f0d3b087d5835ac9b16be59e30/openmrs-esm-styleguide.js",
+    "@openmrs/esm-home": "https://spa-modules.nyc3.digitaloceanspaces.com/@openmrs/esm-home/d89dd97c03be71f9df0511e0f8f13ea49e55c93f/openmrs-esm-home.js",
+    "rxjs": "https://cdn.jsdelivr.net/npm/rxjs@6.5.3/bundles/rxjs.umd.min.js",
+    "@openmrs/esm-primary-navigation": "https://spa-modules.nyc3.digitaloceanspaces.com/@openmrs/esm-primary-navigation/7cd583b8afd69228fe4a6851451b32411351a956/openmrs-esm-primary-navigation.js",
+    "@openmrs/esm-error-handling": "https://spa-modules.nyc3.digitaloceanspaces.com/@openmrs/esm-error-handling/de4a47b16d4c2629e0aec253e907457ba804ebe1/openmrs-esm-error-handling.js",
+    "@openmrs/esm-dashboard": "https://localhost:8081/openmrs-esm-dashboard.js",
+    "@openmrs/esm-dashboard-widgets": "https://localhost:8083/openmrs-esm-dashboard-widgets.js"
+  }
+}
