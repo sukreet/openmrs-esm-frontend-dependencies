@@ -4,13 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "deploy": "npm run make-dist && npm run copy-to-docker",
-    "make-dist": "npm run create-dist && npm run copy-import-map && npm run copy-systemjs && npm run copy-imports",
-    "create-dist": "rm -rf ./dist && mkdir dist",
-    "copy-import-map": "cp import-map.json ./dist/import-map.json",
-    "copy-systemjs": "cp -r ./node_modules/systemjs ./dist/systemjs@6.0.0",
-    "copy-imports": "cp -r ./node_modules/import-map-overrides ./dist/import-map-overrides@1.8.0",
-    "copy-to-docker": "docker cp ./dist/. distro_web_1:/usr/local/tomcat/.OpenMRS/frontend/"
+    "deploy": "sh ./scripts/build-dist.sh && sh ./scripts/deploy-to-docker.sh"
   },
   "keywords": [],
   "author": "",

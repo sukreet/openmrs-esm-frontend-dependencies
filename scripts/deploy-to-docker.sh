@@ -1,0 +1,1 @@
+docker cp ./dist/. distro_web_1:/usr/local/tomcat/.OpenMRS/frontend/
