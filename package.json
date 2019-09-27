@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "deploy": "sh ./scripts/build-dist.sh && sh ./scripts/deploy-to-docker.sh"
+    "build": "sh ./scripts/build-dist.sh",
+    "deploy-docker": " npm run build && sh ./scripts/deploy-to-docker.sh"
   },
   "keywords": [],
   "author": "",
