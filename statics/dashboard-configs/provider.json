@@ -19,6 +19,15 @@
       "properties": {
         "title": "My Todos"
       }
+    },
+    {
+      "library": {
+        "module": "@openmrs/esm-dashboard-widgets",
+        "name": "Charts"
+      },
+      "properties": {
+        "title": "My Graphs"
+      }
     }
   ]
 }

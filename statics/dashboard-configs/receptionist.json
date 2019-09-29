@@ -1,6 +1,16 @@
 {
-  "title": "Provider Dashboard",
+  "title": "Receptionist Dashboard",
   "contents": [
+    {
+      "size": { "rows": 2, "columns": 1 },
+      "library": {
+        "module": "@openmrs/esm-dashboard-widgets",
+        "name": "Appointment"
+      },
+      "properties": {
+        "title": "My Appointments"
+      }
+    },
     {
       "library": {
         "module": "@openmrs/esm-dashboard-widgets",
