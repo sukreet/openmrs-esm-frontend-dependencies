@@ -2,21 +2,22 @@
   "title": "Provider Dashboard",
   "contents": [
     {
-      "library": {
-        "module": "@openmrs/esm-dashboard-widgets",
-        "name": "Todo"
-      },
-      "properties": {
-        "title": "My Todos"
-      }
-    },
-    {
+      "size": { "rows": 2, "columns": 1 },
       "library": {
         "module": "@openmrs/esm-dashboard-widgets",
         "name": "Appointment"
       },
       "properties": {
         "title": "My Appointments"
+      }
+    },
+    {
+      "library": {
+        "module": "@openmrs/esm-dashboard-widgets",
+        "name": "Todo"
+      },
+      "properties": {
+        "title": "My Todos"
       }
     }
   ]
