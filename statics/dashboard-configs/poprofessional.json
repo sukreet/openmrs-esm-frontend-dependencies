@@ -1,8 +1,11 @@
 {
   "title": "Provider Dashboard",
+  "layout": {
+    "columns": 10
+  },
   "contents": [
     {
-      "size": { "rows": 2, "columns": 1 },
+      "size": { "rows": 2, "columns": 6 },
       "library": {
         "module": "@openmrs/esm-dashboard-widgets",
         "name": "Appointment"
@@ -12,6 +15,7 @@
       }
     },
     {
+      "size": { "rows": 1, "columns": 4 },
       "library": {
         "module": "@openmrs/esm-dashboard-widgets",
         "name": "Todo"
@@ -21,6 +25,7 @@
       }
     },
     {
+      "size": { "rows": 1, "columns": 4 },
       "library": {
         "module": "@openmrs/esm-dashboard-widgets",
         "name": "Charts"
