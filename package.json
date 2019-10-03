@@ -4,14 +4,26 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "sh ./scripts/build-dist.sh",
+    "build": "packmap -o frontend && cp -r ./statics/* ./dist/",
     "deploy-docker": " npm run build && sh ./scripts/deploy-to-docker.sh"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "devDependencies": {
+    "packmap": "^1.0.0-alpha.2"
+  },
   "dependencies": {
-    "import-map-overrides": "^1.8.0",
-    "systemjs": "^6.1.1"
+    "@openmrs/esm-api": "^1.0.4",
+    "@openmrs/esm-devtools": "^1.1.0",
+    "@openmrs/esm-error-handling": "^1.0.1",
+    "@openmrs/esm-root-config": "^1.1.1",
+    "@openmrs/esm-styleguide": "^1.2.0",
+    "import-map-overrides": "1.8.0",
+    "react": "^16.10.1",
+    "react-dom": "^16.10.1",
+    "rxjs": "^6.5.3",
+    "single-spa": "^4.4.1",
+    "systemjs": "6.1.1"
   }
 }
