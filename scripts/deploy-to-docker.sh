@@ -1,1 +1,1 @@
-docker cp ./frontend/. distro_web_1:/usr/local/tomcat/.OpenMRS/frontend/
+docker cp ./openmrs/frontend/. distro_web_1:/usr/local/tomcat/.OpenMRS/frontend/

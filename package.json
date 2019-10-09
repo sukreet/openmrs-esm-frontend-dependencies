@@ -4,14 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "packmap -o frontend && cp -r ./statics/* ./dist/",
+    "build": "packmap -o openmrs/frontend && cp -r ./statics/* ./openmrs/frontend/",
+    "build-dev": "packmap -o openmrs/frontend --override-map ./overriding-import-map.json && cp -r ./statics/* ./openmrs/frontend/",
     "deploy-docker": " npm run build && sh ./scripts/deploy-to-docker.sh"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "packmap": "^1.0.0-alpha.2"
+    "packmap": "^1.1.1"
   },
   "dependencies": {
     "@openmrs/esm-api": "^1.0.4",

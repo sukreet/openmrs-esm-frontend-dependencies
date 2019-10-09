@@ -1,0 +1,8 @@
+{
+  "imports": {
+    "@openmrs/esm-dashboard": "https://localhost:8081/openmrs-esm-dashboard.js",
+    "@openmrs/esm-root-config": "https://localhost:8082/openmrs-esm-root-config.defaults.js",
+    "@openmrs/esm-dashboard-widgets": "https://localhost:8083/openmrs-esm-dashboard-widgets.js",
+    "@openmrs/esm-styleguide": "https://localhost:8085/openmrs-esm-refapp-styleguide.js"
+  }
+}
